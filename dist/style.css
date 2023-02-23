@@ -163,17 +163,38 @@ a:active {
   ("/images/image-avatar.png"); */
   background-image: url("./../images/image-avatar.png");
 }
-.header__profile:hover {
-  border-radius: 50%;
-  border: 2px solid hsl(26deg, 100%, 55%);
-  scale: 1.03;
-}
+
 
 @media (hover: hover) {
    .header__profile:hover {
   border-radius: 50%;
   border: 2px solid hsl(26deg, 100%, 55%);
   scale: 1.03;
+}
+  
+  .carousel__prev:hover {
+  opacity: 1;
+}
+  
+  .carousel__next:hover {
+  opacity: 1;
+}
+  
+  .hero__col2__stock svg:hover {
+  opacity: 0.7;
+}
+  
+  .hero__col2__stock .first div:first-child:hover {
+  opacity: 0.7;
+}
+  
+  .hero__col2__stock .first div:last-child:hover {
+  opacity: 0.7;
+}
+  
+  
+  .hero__addtocart button:hover {
+  opacity: 0.7;
 }
 }
 
@@ -217,9 +238,7 @@ a:active {
   opacity: 0.8;
   transition: opacity 150ms ease-in-out;
 }
-.carousel__prev:hover {
-  opacity: 1;
-}
+
 .carousel__prev svg {
   margin: auto;
   position: absolute;
@@ -239,9 +258,7 @@ a:active {
   opacity: 0.8;
   transition: opacity 150ms ease-in-out;
 }
-.carousel__next:hover {
-  opacity: 1;
-}
+
 .carousel__next svg {
   margin: auto;
   position: absolute;
@@ -392,9 +409,7 @@ a:active {
   justify-content: space-between;
   transition: all 100ms ease-in-out;
 }
-.hero__col2__stock svg:hover {
-  opacity: 0.7;
-}
+
 .hero__col2__stock svg:active {
   transform: translateY(0.89px);
 }
@@ -413,16 +428,12 @@ a:active {
   height: 100%;
   width: 30%;
 }
-.hero__col2__stock .first div:first-child:hover {
-  opacity: 0.7;
-}
+
 .hero__col2__stock .first h3 {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.hero__col2__stock .first div:last-child:hover {
-  opacity: 0.7;
-}
+
 .hero__addtocart {
   display: inline-block;
   width: 40%;
@@ -435,9 +446,7 @@ a:active {
   width: 100%;
   transition: all 150ms ease-in-out;
 }
-.hero__addtocart button:hover {
-  opacity: 0.7;
-}
+
 .hero__addtocart button:active {
   transform: translateY(0.89px);
 }
