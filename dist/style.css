@@ -159,7 +159,8 @@ a:active {
   width: 28px;
   height: 28px;
   background-size: cover;
-  background-image: url("/images/image-avatar.png");
+  /* background-image: url("/images/image-avatar.png"); */
+  background-image: url("./images/image-avatar.png");
 }
 .header__profile:hover {
   border-radius: 50%;
@@ -310,26 +311,26 @@ a:active {
   grid-area: col1;
   width: 290px;
   height: 270px;
-  background-image: url("/images/image-product-1.jpg");
+  background-image: url("./images/image-product-1.jpg");
 }
 .hero__grid__col2 {
   grid-area: col2;
   height: 65px;
-  background-image: url("/images/image-product-1-thumbnail.jpg");
+  background-image: url("./images/image-product-1-thumbnail.jpg");
 }
 .hero__grid__col3 {
   grid-area: col3;
   height: 65px;
-  background-image: url("/images/image-product-2-thumbnail.jpg");
+  background-image: url("./images/image-product-2-thumbnail.jpg");
 }
 .hero__grid__col4 {
   grid-area: col4;
   height: 65px;
-  background-image: url("/images/image-product-3-thumbnail.jpg");
+  background-image: url("./images/image-product-3-thumbnail.jpg");
 }
 .hero__grid__col5 {
   grid-area: col5;
-  background-image: url("/images/image-product-4-thumbnail.jpg");
+  background-image: url("./images/image-product-4-thumbnail.jpg");
   height: 65px;
 }
 .hero__col2 {
@@ -566,21 +567,21 @@ a:active {
 .slide__grid__col2 {
   grid-area: col2;
   height: 65px;
-  background-image: url("/images/image-product-1-thumbnail.jpg");
+  background-image: url("./images/image-product-1-thumbnail.jpg");
 }
 .slide__grid__col3 {
   grid-area: col3;
   height: 65px;
-  background-image: url("/images/image-product-2-thumbnail.jpg");
+  background-image: url("./images/image-product-2-thumbnail.jpg");
 }
 .slide__grid__col4 {
   grid-area: col4;
   height: 65px;
-  background-image: url("/images/image-product-3-thumbnail.jpg");
+  background-image: url("./images/image-product-3-thumbnail.jpg");
 }
 .slide__grid__col5 {
   grid-area: col5;
-  background-image: url("/images/image-product-4-thumbnail.jpg");
+  background-image: url("./images/image-product-4-thumbnail.jpg");
   height: 65px;
 }
 .slide__grid__next {
