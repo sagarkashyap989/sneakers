@@ -160,7 +160,7 @@ a:active {
   height: 28px;
   background-size: cover;
   /* background-image: url("/images/image-avatar.png"); */
-  background-image: url("./images/image-avatar.png");
+  background-image: url("./imassges/image-avatar.png");
 }
 .header__profile:hover {
   border-radius: 50%;
