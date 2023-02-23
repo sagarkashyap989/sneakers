@@ -1,0 +1,78 @@
+.cart {
+  background-color: hsl(0deg, 0%, 100%);
+  width: 328px;
+  height: 192px;
+  transform: translateX(-50%);
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 76px;
+  border-radius: 15px;
+  max-width: 433px;
+  box-shadow: 0 5px 40px #545151;
+  gap: 7px;
+  padding: 13px;
+  transition: all 200ms ease-in-out;
+}
+@media (min-width: 43.75em) {
+  .cart {
+    height: 185px;
+    width: 337px;
+    padding: 10px;
+    transform: none;
+    left: auto;
+    right: 153px;
+  }
+}
+.cart__title {
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.cart div {
+  display: grid;
+  grid-template-areas: "img desc desc del" "img price cart__tol del";
+  align-items: center;
+  margin-top: 8px;
+}
+.cart div .img {
+  grid-area: img;
+}
+.cart div .desc {
+  grid-area: desc;
+}
+.cart div h3,
+.cart div p {
+  color: hsl(219deg, 9%, 45%);
+  font-size: 16px;
+  margin: 0;
+}
+.cart div h3 span,
+.cart div p span {
+  color: black;
+}
+.cart div .del {
+  grid-area: del;
+  justify-self: end;
+}
+.cart div .cart__tol {
+  grid-area: tol;
+}
+.cart div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+.cart button {
+  grid-area: btn;
+  width: 100%;
+  background-color: hsl(26deg, 100%, 55%);
+  border-radius: 7px;
+  border: none;
+  display: block;
+  margin-top: 10px;
+}
+.cart button h3 {
+  color: hsl(0deg, 0%, 100%);
+}/*# sourceMappingURL=cart.css.map */
