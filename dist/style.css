@@ -168,6 +168,18 @@ a:active {
   border: 2px solid hsl(26deg, 100%, 55%);
   scale: 1.03;
 }
+
+@media (hover: hover) {
+   .header__profile:hover {
+  border-radius: 50%;
+  border: 2px solid hsl(26deg, 100%, 55%);
+  scale: 1.03;
+}
+}
+
+
+
+
 @media (min-width: 43.75em) {
   .header__profile {
     width: 40px;
